@@ -1135,14 +1135,19 @@ letter-spacing: 0%;
 }
 .img_maheev {
 }
+
 .position_img1 {
   position:absolute;
-  left:-700px;
-  top:1200px;
+  left:-720px;
+  top:990px;
 }
+
 .clipart-blur-1 {
+
 }
 .clipart-blur-2 {
+  position: relative;
+  top:40px;
 }
 .red_deck__wrapper {
   width:350px;
@@ -1232,16 +1237,22 @@ width:300px;
 .hainik-rendel {
 }
 .prize-card2 {
+  position:relative;
+  top:60px;
 }
 .rondel {
+
 }
 .elipse-groups1 {
 }
 .hainik-rendel2 {
 }
 .prize-card3 {
+  position: relative;
+  top:70px;
 }
 .rondel-2 {
+
 }
 .elipse-group3 {
 }
