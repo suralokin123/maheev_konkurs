@@ -1001,7 +1001,7 @@ footer {
 /* Мобильная версия */
 
 
-@media (min-width: 375px) and (max-width: 1440px) {
+@media (min-width:275px) and (max-width: 1440px) {
  .header__wrapper {
   
  }
@@ -1280,20 +1280,20 @@ width:300px;
 }
 
 .slide {
-  flex: 0 0 100%; /* Каждый слайд занимает 100% ширины контейнера */
+  flex: 0 0 100%;
   width: 100%;
-  height: auto; /* Автоматическая высота, сохраняет пропорции картинки */
+  height: auto;
 }
 
 .slide img {
-  width: 100%;  /* Картинка занимает всю ширину слайда */
+  width: 100%;
   height: auto;
-  display: block; /*  Убирает лишний отступ под картинкой */
+  display: block;
 }
 
 .slider-dots {
   display: flex;
-  justify-content: center; /*  Размещает точки по центру */
+  justify-content: center;
   margin-top: 10px;
 }
 
@@ -1316,32 +1316,32 @@ width:300px;
   top: 50%;
   transform: translateY(-50%);
   display: flex;
-  justify-content: space-between; /* Размещает стрелки по краям */
+  justify-content: space-between;
   width: 100%;
-  padding: 0 10px; /*  Отступ от краев */
+  padding: 0 10px;
 }
 
 .btn-arrow a {
-  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 10px;
   border-radius: 50%;
   text-decoration: none;
   display: flex;
-  align-items: center; /*  Центрирование иконки по вертикали */
-  justify-content: center; /*  Центрирование иконки по горизонтали */
+  align-items: center;
+  justify-content: center;
 }
 
   .slider-dots {
-     left: auto; /* Убираем абсолютное позиционирование */
+     left: auto;
   }
 
   .btn-arrow {
-    padding: 0 5px; /* Меньше отступы на мобильных */
+    padding: 0 5px;
   }
 
   .btn-arrow a {
-    padding: 5px; /*  Меньше padding для стрелок */
+    padding: 5px;
   }
 
 
@@ -1353,43 +1353,43 @@ width:300px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 30px; /*  Размер бургера */
-  height: 25px; /*  Размер бургера */
+  width: 30px;
+  height: 25px;
   cursor: pointer;
 }
 
 .burger-line {
   width: 100%;
   height: 3px;
-  background-color: #000; /*  Цвет линий бургера */
-  transition: all 0.3s ease; /* Плавная анимация */
+  background-color: #000;
+  transition: all 0.3s ease;
 }
 
-/* Трансформация бургера в крестик */
+
 .burger-menu.active .burger-line:nth-child(1) {
   transform: rotate(45deg) translate(6px, 6px); /* Поворот и смещение верхней линии */
 }
 
 .burger-menu.active .burger-line:nth-child(2) {
-  opacity: 0; /* Скрываем среднюю линию */
+  opacity: 0;
 }
 
 .burger-menu.active .burger-line:nth-child(3) {
-  transform: rotate(-45deg) translate(6px, -6px); /* Поворот и смещение нижней линии */
+  transform: rotate(-45deg) translate(6px, -6px);
 }
 
-/* Стили для мобильного меню */
+
 .mobile-menu {
-  position: absolute; /*  Абсолютное позиционирование */
-  top:-10px; /*  Размещаем сразу под header'ом */
+  position: absolute; 
+  top:-10px;
   left: 0;
   width:450px;
   z-index:999;
   height:450px;
-  background-color: rgba(226, 94, 94, 1); /*  Красный фон */
+  background-color: rgba(226, 94, 94, 1);
   color: white;
   padding: 20px;
-  display: none; /*  Скрываем меню по умолчанию */
+  display: none;
   flex-direction: column;
   gap: 10px;
 }
@@ -1404,7 +1404,7 @@ text-align: center;
 color: rgba(255, 255, 255, 1);
 }
 
-/* Показываем меню при добавлении класса 'active' */
+
 .mobile-menu.active {
   display: flex;
   flex-direction: column;
@@ -1417,11 +1417,11 @@ color: rgba(255, 255, 255, 1);
 
 body.no-scroll {
   overflow: hidden;
-  height: 100vh; /* Предотвращает скачки страницы */
-  position: fixed; /* Для фиксации контента */
-  width: 100%; /* Занимает всю ширину */
-  top: 0; /* Прижимается к верху страницы */
-  left: 0; /* Прижимается к левому краю страницы */
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 
