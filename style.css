@@ -1385,7 +1385,7 @@ width:300px;
   left: 0;
   width:450px;
   z-index:999;
-  height:450px;
+  height:700px;
   background-color: rgba(226, 94, 94, 1);
   color: white;
   padding: 20px;
@@ -1397,6 +1397,8 @@ width:300px;
 .mobile_menu_text {
   font-family: "Gilroy";
 font-weight: 700;
+position: relative;
+top:-150px;
 font-size: 24px;
 line-height: 141%;
 letter-spacing: 0%;
