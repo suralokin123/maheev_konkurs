@@ -1,0 +1,1472 @@
+/* Подключенные Шрифты */
+
+@font-face {
+  font-family: "Mon Amour One";
+  src: url(./fonts/monamourone_medium.ttf);
+}
+
+@font-face {
+  font-family: "Bebas Neue Cyrillic";
+  src: url(./fonts/ofont.ru_Bebas\ Neue.ttf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(./fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url(./fonts/Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url(./fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+/* Сбрасывание стилей браузера*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  background: #ffffff;
+  font-family: "Mon Amour One", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Начало вёрстки */
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 108px;
+  padding: 50px 0;
+}
+
+.header_link {
+  display: flex;
+  gap: 58px;
+}
+
+.main__wrapper {
+  display: flex;
+  gap: 38px;
+}
+
+
+.maheev_main {
+  font-family:"Mon Amour One";
+font-weight: 550;
+font-size: 66px;
+line-height: 95%;
+letter-spacing: -9.5%;
+color: rgb(250, 60, 60);
+}
+
+.title_maheev_link {
+  font-family: "Nunito";
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color:rgba(0, 0, 0, 1);
+}
+
+.text_main {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.main_title_maheev {
+  font-family: "Mon Amour One";
+font-weight: 550;
+font-size: 83px;
+line-height: 95%;
+letter-spacing: -9.5%;
+width:600px;
+}
+
+.main_subtitle_maheev {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 100%;
+  letter-spacing: -4.5%;
+}
+
+.btn__wrapper {
+  display: flex;
+  gap: 11px;
+  margin-bottom: 50px;
+}
+
+.btn_one_maheev1 {
+  width: 281px;
+  height: 69px;
+  top: 462px;
+  left: 135px;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(225, 93, 93, 1);
+  cursor: pointer;
+  border: none;
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.btn_two_maheev2 {
+  width: 225px;
+  height: 69px;
+  top: 462px;
+  left: 427px;
+  border-radius: 20px;
+  border-width: 1px;
+  color: rgba(226, 94, 94, 1);
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgba(226, 94, 94, 1);
+  font-weight: 600;
+}
+
+.clipart-blur-1 {
+  position: relative;
+  left: 700px;
+  top: 120px;
+}
+
+.position_img1 {
+  position: absolute;
+  z-index: -1;
+}
+
+.clipart-blur-2 {
+  position: relative;
+  left: 1000px;
+  top: 85px;
+}
+
+.clipart-blur-position {
+  position: relative;
+}
+
+/* Обратный счётчик */
+
+.clipart-timer {
+  position: absolute;
+  top: 250px;
+  left: -2px;
+}
+
+.timer__wrapper {
+  position: relative;
+  display: block;
+  background-color: rgba(226, 94, 94, 1);
+  padding: 60px 30px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.timer-text {
+  font-family:"Gilroy Bold";
+  font-weight: 700;
+  font-size:35px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+  color:rgba(255, 255, 255, 1);
+  width:500px;
+}
+
+.day {
+  font-family: "Bebas Neue Cyrillic";
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+}
+
+.hrs {
+  font-family: "Bebas Neue Cyrillic";
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+}
+
+.min {
+  font-family: "Bebas Neue Cyrillic";
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+}
+
+.sec {
+  font-family: "Bebas Neue Cyrillic";
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+}
+
+.countdown_timer {
+  display: flex;
+  justify-content: space-between;
+  width: 493;
+  height: 221;
+  top: 571px;
+  left: 135px;
+  border-radius: 11px;
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.day {
+  width: 49px;
+  height: 73;
+  top: 653px;
+  left: 175px;
+  border-radius: 13px;
+}
+
+span.elipse1 {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 140px;
+  border-radius: 10px;
+  left: 170px;
+  background: rgba(239, 239, 239, 1);
+}
+
+span.elipse2 {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 160px;
+  border-radius: 10px;
+  left: 170px;
+  background: rgba(239, 239, 239, 1);
+}
+
+.timer-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.countdown_timer .timer {
+  padding: 20px;
+  margin: 20px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 2px 2px #d5c5c6, 2px 2px 120px #d5c5c6;
+  border: 3px solid #ffffff;
+  border-radius: 13px;
+  min-width: 100px;
+}
+
+.min {
+  position: relative;
+  left:30px;
+  top:20px;
+}
+
+.timer-min {
+position: relative;
+top:20px;
+background: rgba(255, 255, 255, 1);
+ width:90px;
+height:80px;
+border-radius: 13px;
+}
+
+.min_1 {
+  position: relative;
+  top:38px;
+}
+
+
+.timer-sec {
+  width:90px;
+height:80px;
+top:20px;
+position: relative;
+left:-2px;
+border-radius: 13px;
+background: rgba(255, 255, 255, 1);
+}
+
+.sec {
+  position: relative;
+  top:20px;
+  left:30px;
+}
+
+.second {
+  position: relative;
+  top:38px;
+}
+
+.timer p {
+  font-family:"Nunito";
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+}
+
+.countdown_timer h2 {
+  font-size: 32px;
+}
+
+.red_deck__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 122px;
+  background: rgba(226, 94, 94, 1);
+  border-radius: 27px;
+  margin-bottom: 80px;
+}
+
+.deck-text1 {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 141%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.deck-span {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.deck-span1 {
+  color: #ffffff;
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.deck-text2 {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 141%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  width: 580px;
+  height: 136px;
+  top: 1083px;
+  left: 428px;
+}
+
+.deck-span2 {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.text_deck {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-konkurs {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_main-konkrus {
+  display: flex;
+  position: relative;
+  gap: 80px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.ketchup-position {
+  position: absolute;
+  width: 78.000001268527px;
+  height: 144.000002341896px;
+  rotate: 30.08deg;
+  left: -145px;
+}
+
+.text-konkurs-main {
+  font-family: "Gilroy Bold";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 13px;
+  color: rgba(226, 94, 94, 1);
+  margin-bottom: 36px;
+}
+
+.konkurs-card-title {
+  font-family: "Gilroy Bold";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+  color: rgba(226, 94, 94, 1);
+}
+
+.konkurs-card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 377px;
+  height: 291px;
+  top: 1453px;
+  left: 135px;
+  border-radius: 15px;
+}
+
+.konkurs-card-subtitle {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-align: center;
+  width: 322px;
+  height: 63px;
+  top: 1653px;
+  left: 162px;
+}
+
+.konkurs-card-subtitle2 {
+  font-family: "Nunito";
+  font-weight: 400;
+  width: 240px;
+  font-size: 20px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-align: center;
+}
+
+.konkurs-card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.konkurs-card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.maheev_ketchup-konkurs {
+  position: absolute;
+  right: 20px;
+  top: -100px;
+}
+
+.btn__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.btn_maheev_konkurs {
+  width: 339px;
+  height: 69px;
+  top: 1784px;
+  left: 366px;
+  border-radius: 20px;
+  background-color: rgba(237, 82, 82, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  cursor: pointer;
+  border: none;
+}
+
+.btn_maheev_konkurs2 {
+  width: 339px;
+  height: 69px;
+  top: 1784px;
+  left: 735px;
+  border-radius: 22px;
+  border-width: 1px;
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(226, 94, 94, 1);
+  border: 1px solid rgba(226, 94, 94, 1);
+}
+
+.konkurs-card-subtitle3 {
+  font-family: "Nunito";
+  font-weight: 400;
+  width: 240px;
+  font-size: 20px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-align: center;
+}
+
+aside {
+  background-color: rgba(226, 94, 94, 1);
+}
+
+.prize-konkurs {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.text-prize {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 150px;
+}
+
+.prize-ketchup {
+  position: relative;
+}
+
+.tomatos-ketchup {
+  position: absolute;
+  left: -20px;
+  top: -70px;
+}
+
+.text-prize-subtitle {
+  font-family: "Gilroy Bold";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+
+.text-prize-subtitle-2 {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 106%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  width: 706px;
+  height: 52px;
+  top: 2076px;
+  left: 367px;
+}
+
+.prize-konkurs-cards {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.prize-card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 367px;
+  height: 298px;
+  top: 2332px;
+  left: 135px;
+  border-radius: 15px;
+}
+
+.prize-card2 {
+  display: flex;
+  position: relative;
+  top: -20px;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  width: 367px;
+  height: 339px;
+  gap: 20px;
+  border-radius: 15px;
+}
+
+.rondel-2 {
+  position: relative;
+}
+
+.elipse-group3 {
+  position: relative;
+  top: -90px;
+}
+
+.rondel-2 {
+  position: relative;
+  top: -120px;
+  left: 40px;
+}
+
+.prize-card3 {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  width: 367px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.hainik-rendel2 {
+  position: relative;
+  top: -110px;
+  font-family: "Gilroy Bold";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-align: center;
+  color: rgba(226, 94, 94, 1);
+}
+
+.hainik-rendel3 {
+  font-family: "Gilroy Bold";
+  position: relative;
+  top: -77px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-align: center;
+  color: rgba(226, 94, 94, 1);
+}
+
+.rondel {
+  position: relative;
+  top: -150px;
+}
+
+.rendel {
+  position: relative;
+  top: -100px;
+}
+
+.elipse-group58 {
+  position: relative;
+  top: -80px;
+}
+
+.elipse-groups1 {
+  position: relative;
+  top: -118px;
+}
+
+.hainik-rendel {
+  position: relative;
+  top: -60px;
+  font-family: "Gilroy Bold";
+  font-weight: 700;
+  font-size: 30px;
+  width: 250px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-align: center;
+  color: rgba(226, 94, 94, 1);
+}
+
+.konkurs-title {
+  display: flex;
+  align-items: center;
+}
+
+.konkurs-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-title {
+  font-family: "Gilroy Bold";
+  width: 270px;
+  height: 96px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.title-konkurs {
+  font-family: "Gilroy Bold";
+  font-weight: 100;
+  font-size: 28px;
+  line-height: 106%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.maheev_marinad {
+  position: relative;
+  left: 400px;
+  top: 130px;
+}
+
+.konkurs-time {
+  margin-bottom: 50px;
+}
+
+/* Слайдер стиль */
+
+.slider-container {
+  position: relative; /* Для позиционирования стрелок */
+  width: 200px; /* Занимает всю доступную ширину */
+  left:500px; /* Раскомментируйте или измените, если нужно */
+  top:50px;
+  overflow: hidden; /* Скрывает слайды, выходящие за границы контейнера */
+}
+
+.slider {
+  display: flex; /* Выстраивает слайды в ряд */
+  transition: transform 0.5s ease-in-out; /* Плавная анимация */
+}
+
+.slide {
+  flex-shrink: 0; /* Слайды не сжимаются */
+  width: 200px; /* Каждый слайд занимает всю ширину контейнера */
+  height: auto; /* Высота определяется содержимым */
+}
+
+.slide img {
+  width: 100%; /* Изображение занимает всю ширину слайда */
+  height: auto; /* Сохраняет пропорции */
+  display: block; /* Убирает лишние отступы у изображений */
+}
+
+.btn-arrow {
+  z-index:1000;
+  position: relative;
+  top:-270px;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute; /* Абсолютное позиционирование */
+  top: 50%; /* По вертикали по центру */
+  transform: translateY(-50%); /* Корректировка вертикального позиционирования */
+  color: white; /* Цвет текста */
+  padding: 10px; /* Отступы */
+  cursor: pointer; /* Курсор в виде руки */
+  border: none; /* Убираем рамку */
+}
+
+.arrow-left {
+  left:2px; /* Слева */
+}
+
+.arrow-right {
+  right: 10px; /* Справа */
+}
+
+.arrow-left img,
+.arrow-right img {
+  width:30px; /* Задайте нужный размер стрелкам */
+  height: auto;
+  position:relative;
+}
+
+/* Точки переключения */
+
+
+.slider-dots {
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  margin-top: 10px; /* Отступ сверху */
+  padding: 0 100px;
+  z-index: 999;
+}
+
+.slider-dots .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000000;
+  cursor: pointer;
+  margin: 0 5px; /* Отступы между точками */
+}
+
+.slider-dots .dot.active {
+  background-color: #222;
+}
+
+
+/* Стили для текста (необязательно) */
+.slide-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.recepti-title {
+  font-family: "Gilroy Bold";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+
+.luhie_resepti {
+}
+
+.recepti-subtitle {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.photo_receptov {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 34px;
+  padding:80px 0 0;
+}
+
+.recepti_position {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  justify-content: center;
+  margin-bottom: 100px;
+  padding: 40px 0;
+}
+
+.recepti,
+.recepti2,
+.recepti3,
+.recepti4,
+.recepti5,
+.recepti6,
+.recepti7,
+.recepti8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  gap:15px;
+}
+
+.recepti-opisanie {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 106%;
+  letter-spacing: -3%;
+  text-align: center;
+  width: 172px;
+  height: 57px;
+  top: 4655px;
+  left: 485px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.recepti {
+}
+
+.recepti8 {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-recept {
+  width: 339px;
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  height: 69px;
+  top: 4752px;
+  left: 551px;
+  border-radius: 22px;
+  cursor: pointer;
+  border: none;
+  color: rgba(226, 94, 94, 1);
+}
+
+footer {
+  background-color: #ffffff;
+}
+
+.aside_slider {
+  background-color: #ffffff;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-title {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 198px;
+  height: 25px; 
+  top: 5034px;
+  left: 621px;
+  color: rgba(226, 94, 94, 1);
+}
+
+
+.recepti {
+
+}
+
+.slider-container {
+  
+}
+
+/* Мобильная версия */
+
+
+@media (min-width: 375px) and (max-width: 1440px) {
+ .header__wrapper {
+  
+ }
+
+.header_link {
+  display: none;
+}
+.title_maheev_link {
+}
+.main__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.maheev_main {
+  font-family:"Mon Amour One";
+font-weight: 550;
+font-size: 39px;
+line-height: 106%;
+letter-spacing: -9%;
+text-align: center;
+color: rgba(237, 82, 82, 1);
+}
+
+.text_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.main_title_maheev {
+  font-family:"Mon Amour One";
+font-weight: 550;
+font-size: 39px;
+width:320px;
+line-height: 106%;
+letter-spacing: -9%;
+text-align: center;
+}
+
+.days {
+  position: relative;
+  left:-40px;
+}
+
+.hours {
+  position: relative;
+  left:-40px;
+}
+
+
+.main_subtitle_maheev {
+}
+.btn__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.btn_one_maheev1 {
+}
+.btn_two_maheev2 {
+}
+.timer__wrapper {
+  width:350px;
+}
+.timer-text {
+  width:auto;
+}
+.countdown_timer {
+  width:auto;
+}
+.timer-timer {
+  position: relative;
+  width:140px;
+}
+.timer {
+  position:relative;
+  left:-40px;
+  width:5px;
+}
+
+.timer-min {
+  position: relative;
+  width:50px;
+  height:80px;
+  left:-30px;
+  top:20px;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 1);
+
+}
+
+.day {
+  width:auto;
+}
+.elipse1 {
+  width:auto;
+}
+.elipse2 {
+}
+.hrs {
+}
+.min {
+  font-size:10px;
+  position: relative;
+  right:2px;
+  top:23px;
+  font-family:"Nunito";
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.min_1 {
+  position: relative;
+  right:30px;
+  top:38px;
+}
+
+.timer-sec {
+  display: none;
+}
+
+.sec-mobile {
+  display: none;
+}
+
+
+.clipart-timer {
+}
+.img_maheev {
+}
+.position_img1 {
+  position:absolute;
+  left:-700px;
+  top:1200px;
+}
+.clipart-blur-1 {
+}
+.clipart-blur-2 {
+}
+.red_deck__wrapper {
+  width:350px;
+}
+.text_deck {
+width:300px;
+height:800px;
+
+}
+.deck-text1 {
+  width:300px;
+}
+.deck-span {
+  width:300px;
+}
+.deck-span1 {
+  width:300px;
+}
+.deck-text2 {
+  width:300px;
+}
+.deck-span2 {
+}
+.ketchup-position {
+}
+.main-konkurs {
+  display: flex;
+  flex-direction: column;
+}
+.text-konkurs-main {
+  display: flex;
+  flex-direction: column;
+}
+.card_main-konkrus {
+  display: flex;
+  flex-direction: column;
+}
+.konkurs-card1 {
+}
+.konkurs-card-title {
+}
+.konkurs-card-subtitle {
+}
+.konkurs-card2 {
+}
+.konkurs-card-subtitle2 {
+}
+.konkurs-card3 {
+}
+.konkurs-card-subtitle3 {
+}
+.maheev_ketchup-konkurs {
+}
+.btn_maheev_konkurs {
+}
+.btn_maheev_konkurs2 {
+}
+.prize-konkurs {
+}
+.prize-ketchup {
+}
+.tomatos-ketchup {
+}
+.text-prize {
+}
+.text-prize-subtitle {
+}
+.text-prize-subtitle-2 {
+  font-family:"Gilroy";
+font-weight: 500;
+font-size: 16px;
+line-height: 106%;
+letter-spacing: 0%;
+text-align: center;
+width:300px;
+}
+.prize-konkurs-cards {
+  display: flex;
+  flex-direction: column;
+}
+.prize-card1 {
+}
+.rendel {
+}
+.elipse-group58 {
+}
+.hainik-rendel {
+}
+.prize-card2 {
+}
+.rondel {
+}
+.elipse-groups1 {
+}
+.hainik-rendel2 {
+}
+.prize-card3 {
+}
+.rondel-2 {
+}
+.elipse-group3 {
+}
+.hainik-rendel3 {
+}
+.konkurs-time {
+}
+.konkurs-title {
+}
+.title-title {
+}
+.maheev_marinad {
+  position:relative;
+  left:-70px;
+  top:-2500px;
+}
+.title-konkurs {
+}
+.aside_slider {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Занимает всю доступную ширину */
+  max-width: 1200px; /* Максимальная ширина слайдера */
+  margin: 0 auto; /* Центрирование слайдера по горизонтали */
+}
+
+.slider-container {
+  position: relative;
+    left:90px;/*  Нужен для позиционирования стрелок */
+  overflow: hidden; /*  Скрывает выходящие за рамки слайды */
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Плавная анимация */
+}
+
+.slide {
+  flex: 0 0 100%; /* Каждый слайд занимает 100% ширины контейнера */
+  width: 100%;
+  height: auto; /* Автоматическая высота, сохраняет пропорции картинки */
+}
+
+.slide img {
+  width: 100%;  /* Картинка занимает всю ширину слайда */
+  height: auto;
+  display: block; /*  Убирает лишний отступ под картинкой */
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center; /*  Размещает точки по центру */
+  margin-top: 10px;
+}
+
+.slider-dots span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #bbb;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.slider-dots span.active {
+  background-color: #717171;
+}
+
+.btn-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between; /* Размещает стрелки по краям */
+  width: 100%;
+  padding: 0 10px; /*  Отступ от краев */
+}
+
+.btn-arrow a {
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  align-items: center; /*  Центрирование иконки по вертикали */
+  justify-content: center; /*  Центрирование иконки по горизонтали */
+}
+
+  .slider-dots {
+     left: auto; /* Убираем абсолютное позиционирование */
+  }
+
+  .btn-arrow {
+    padding: 0 5px; /* Меньше отступы на мобильных */
+  }
+
+  .btn-arrow a {
+    padding: 5px; /*  Меньше padding для стрелок */
+  }
+
+
+
+
+
+/* Стили для бургера */
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px; /*  Размер бургера */
+  height: 25px; /*  Размер бургера */
+  cursor: pointer;
+}
+
+.burger-line {
+  width: 100%;
+  height: 3px;
+  background-color: #000; /*  Цвет линий бургера */
+  transition: all 0.3s ease; /* Плавная анимация */
+}
+
+/* Трансформация бургера в крестик */
+.burger-menu.active .burger-line:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px); /* Поворот и смещение верхней линии */
+}
+
+.burger-menu.active .burger-line:nth-child(2) {
+  opacity: 0; /* Скрываем среднюю линию */
+}
+
+.burger-menu.active .burger-line:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px); /* Поворот и смещение нижней линии */
+}
+
+/* Стили для мобильного меню */
+.mobile-menu {
+  position: absolute; /*  Абсолютное позиционирование */
+  top:-10px; /*  Размещаем сразу под header'ом */
+  left: 0;
+  width:450px;
+  z-index:999;
+  height:450px;
+  background-color: rgba(226, 94, 94, 1); /*  Красный фон */
+  color: white;
+  padding: 20px;
+  display: none; /*  Скрываем меню по умолчанию */
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mobile_menu_text {
+  font-family: "Gilroy";
+font-weight: 700;
+font-size: 24px;
+line-height: 141%;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
+
+/* Показываем меню при добавлении класса 'active' */
+.mobile-menu.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;  
+  position: absolute;
+  left:-40px;
+}
+
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh; /* Предотвращает скачки страницы */
+  position: fixed; /* Для фиксации контента */
+  width: 100%; /* Занимает всю ширину */
+  top: 0; /* Прижимается к верху страницы */
+  left: 0; /* Прижимается к левому краю страницы */
+}
+
+
+  .burger-menu {
+    z-index:1000;
+    position:relative;
+    top:-10px;
+    left:40px;
+  }
+
+
+}
+.luhie_resepti {
+}
+.photo_receptov {
+}
+.recepti-title {
+}
+.recepti-subtitle {
+}
+.recepti_position {
+}
+.recepti {
+}
+.recepti-opisanie {
+}
+.recepti2 {
+}
+.recepti3 {
+}
+.recepti4 {
+}
+.recepti5 {
+}
+.recepti6 {
+}
+.recepti7 {
+}
+.recepti8 {
+}
+.btn-btn {
+}
+.btn-recept {
+}
+.footer_wrapper {
+}
+.footer-title {
+}
