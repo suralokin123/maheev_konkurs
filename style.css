@@ -1085,9 +1085,9 @@ text-align: center;
 
 .timer-min {
   position: relative;
-  width:50px;
+  width:80px;
   height:80px;
-  left:-30px;
+  left:-50px;
   top:20px;
   border-radius: 7px;
   background-color: rgba(255, 255, 255, 1);
@@ -1107,7 +1107,7 @@ text-align: center;
 .min {
   font-size:10px;
   position: relative;
-  right:2px;
+  left:4px;
   top:23px;
   font-family:"Nunito";
 font-weight: 700;
@@ -1118,7 +1118,7 @@ letter-spacing: 0%;
 
 .min_1 {
   position: relative;
-  right:30px;
+  right:40px;
   top:38px;
 }
 
@@ -1145,10 +1145,14 @@ letter-spacing: 0%;
 .clipart-blur-1 {
 
 }
+
+
 .clipart-blur-2 {
-  position: relative;
+  position:relative;
   top:40px;
 }
+
+
 .red_deck__wrapper {
   width:350px;
 }
