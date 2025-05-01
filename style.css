@@ -801,7 +801,7 @@ aside {
 .btn-arrow {
   z-index:1000;
   position: relative;
-  top:-270px;
+  top:-80px;
 }
 
 .arrow-left,
@@ -998,8 +998,6 @@ footer {
   
 }
 
-/* Мобильная версия */
-
 
 @media (min-width:275px) and (max-width: 1440px) {
  
@@ -1008,41 +1006,48 @@ footer {
   width:100%;
  }
 
+ .logo_header_maheev {
+  position:relative;
+  top:10px;
+  width:150px;
+  height:70px;
+ }
+
+
  .container {
   max-width: 100%; /* Заменяем фиксированную ширину на 100% */
   padding: 0 15px; /* Добавляем отступы по бокам */
   overflow: hidden; /* Скрываем всё, что выходит за пределы */
 }
 
-  /* Исправляем позиционирование элементов, которые могут вызывать скролл */
+
   .clipart-blur-1,
   .clipart-blur-2,
   .position_img1 {
-    display: none; /* Скрываем абсолютно позиционированные элементы */
+    display: none;
   }
 
 
   .timer__wrapper {
-    width: 100%; /* Заменяем фиксированную ширину */
-    box-sizing: border-box; /* Учитываем padding в общей ширине */
+    width: 100%;
+    box-sizing: border-box;
   }
   
   .mobile-menu {
-    width: 100%; /* Исправляем ширину мобильного меню */
+    width: 100%;
     left: 0;
   }
   
   .slider-container {
-    left:10px; /* Исправляем позиционирование слайдера */
-    width: 100%;
-    height:650px;
-    padding: 0 10px;
+    left:10px;
+    width:300px;
+    height:700px;
+    padding: 0 0 5px;
   }
 
 
-   /* Исправляем другие элементы, которые могут выходить за пределы */
    .maheev_marinad {
-    display: none; /* Скрываем абсолютно позиционированный элемент */
+    display: none;
   }
   
   .red_deck__wrapper {
@@ -1055,9 +1060,6 @@ footer {
     width: 100%;
   }
   
-  /* Добавьте это, если проблема сохраняется */
-
-
 
   .header__wrapper {
   
@@ -1148,7 +1150,6 @@ text-align: center;
   top:20px;
   border-radius: 7px;
   background-color: rgba(255, 255, 255, 1);
-
 }
 
 .day {
@@ -1345,16 +1346,16 @@ width:300px;
 .aside_slider {
   display: flex;
   flex-direction: column;
-  width: 100%; /* Занимает всю доступную ширину */
-  max-width: 1200px; /* Максимальная ширина слайдера */
-  margin: 0 auto; /* Центрирование слайдера по горизонтали */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 
 
 .slider {
   display: flex;
-  transition: transform 0.5s ease-in-out; /* Плавная анимация */
+  transition: transform 0.5s ease-in-out;
 }
 
 .slide {
@@ -1441,6 +1442,9 @@ width:300px;
   height: 3px;
   background-color: #000;
   transition: all 0.3s ease;
+  position:relative;
+  top:20px;
+  left:-15px;
 }
 
 
